@@ -29,6 +29,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
+        println("ya Haaaaaaaaaaaaazem")
     }
 
     override fun onBackPressed() {
